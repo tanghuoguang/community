@@ -1,17 +1,4 @@
-package cn.thg.community.controller;/**
- * Copyright: Copyright (c) 2020 Asiainfo
- *
- * @ClassName: cn.thg.community.controller.HomeController
- * @Description: 该类的功能描述
- * @version: v1.0.0
- * @author: tanghg
- * @date: 2020/7/17 0017 下午 4:03
- * <p>
- * Modification History:
- * Date         Author          Version            Description
- * ------------------------------------------------------------
- * 2020/7/17 0017      tanghg          v1.0.0               修改原因
- */
+package cn.thg.community.controller;
 
 import cn.thg.community.entity.DiscussPost;
 import cn.thg.community.entity.Page;

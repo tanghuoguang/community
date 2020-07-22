@@ -1,17 +1,4 @@
-package cn.thg.community.dao;/**
- * Copyright: Copyright (c) 2020 Asiainfo
- *
- * @ClassName: cn.thg.community.dao.IUserDao
- * @Description: 该类的功能描述
- * @version: v1.0.0
- * @author: tanghg
- * @date: 2020/7/16 0016 下午 8:36
- * <p>
- * Modification History:
- * Date         Author          Version            Description
- * ------------------------------------------------------------
- * 2020/7/16 0016      tanghg          v1.0.0               修改原因
- */
+package cn.thg.community.dao;
 
 import cn.thg.community.entity.User;
 import org.apache.ibatis.annotations.Mapper;

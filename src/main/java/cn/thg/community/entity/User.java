@@ -3,21 +3,6 @@ package cn.thg.community.entity;
 import java.io.Serializable;
 import java.util.Date;
 
-/**
- * Copyright: Copyright (c) 2020 Asiainfo
- *
- * @ClassName: cn.thg.community.entity.User
- * @Description: 该类的功能描述
- * @version: v1.0.0
- * @author: tanghg
- * @date: 2020/7/16 0016 下午 8:23
- * <p>
- * Modification History:
- * Date         Author          Version            Description
- * ------------------------------------------------------------
- * 2020/7/16 0016      tanghg          v1.0.0               修改原因
- */
-
 public class User implements Serializable {
     private Integer id;
     private String username;

@@ -1,17 +1,4 @@
-package cn.thg.community.service;/**
- * Copyright: Copyright (c) 2020 Asiainfo
- *
- * @ClassName: cn.thg.community.service.IUserService
- * @Description: 该类的功能描述
- * @version: v1.0.0
- * @author: tanghg
- * @date: 2020/7/16 0016 下午 5:47
- * <p>
- * Modification History:
- * Date         Author          Version            Description
- * ------------------------------------------------------------
- * 2020/7/16 0016      tanghg          v1.0.0               修改原因
- */
+package cn.thg.community.service;
 
 import cn.thg.community.entity.User;
 
