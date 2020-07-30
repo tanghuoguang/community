@@ -2,6 +2,8 @@ package cn.thg.community.service;
 
 import cn.thg.community.entity.User;
 
+import java.util.Map;
+
 /**
  *@author: CandyTom
  *
@@ -16,4 +18,13 @@ public interface IUserService {
     int updateStatus(int id,int status);
     int updateHeader(int id,String headerUrl);
     int updatePassword(int id,String password);
+
+    Map<String,String> register(User user);
+    Map<String,String> login(String username,String password,Integer expiredSeconds);
+    void logout(String ticket);
+
+    int activation(int userId, String code);
+
+
+
 }
